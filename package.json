@@ -2,7 +2,7 @@
   "name": "cv_application",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://kfig21.github.io/cv_application",
+  "homepage": "http://kfig21.github.io/cv_application",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.10",
     "@testing-library/react": "^11.2.5",
