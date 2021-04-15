@@ -20,6 +20,7 @@ body{
   background-color: rgb(41, 41, 41);
   color: whitesmoke;
   transition: 0.2s; /* Add a transition effect (when scrolling - and font size is decreased) */
+  box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.40);
 }
   #header-logo{
       display: flex;
@@ -141,19 +142,19 @@ body{
 /* CV Preview */
 
 .CVpreview{
-  width: 210mm;
+  width: 215mm;
   height: 297mm;
   position: sticky;
   top: 10px;
   display: grid;
-  grid-template-columns: 150mm 60mm;
+  grid-template-columns: 154mm 61mm;
   grid-template-rows: 35mm 262mm;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
   .preview-content-container{
     padding: 2rem;
-    background-color: var(--containerColor);
+    background-color: whitesmoke;
   }
 
   .section-container{
@@ -175,7 +176,7 @@ body{
     }
   .cv-header{
     grid-column: span 2;
-    padding: 1.4rem;
+    padding: 1.5rem 2rem;
     background-color: var(--cvAccent);
     color: whitesmoke;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;

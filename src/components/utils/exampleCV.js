@@ -10,7 +10,7 @@ const exampleCV = {
     address1: "123 Fake Street, City, USA 12345",
     address2: "Unit B",
     phone: "(555)-555-5555",
-    email: "NotAnEmail.gmail.com",
+    email: "NotHarold@aol.com",
   },
   experience: [
     {
@@ -42,6 +42,15 @@ const exampleCV = {
     },
   ],
   education: [
+    {
+      id: uuidv4(),
+      school: "Grad School",
+      address: "Example City, USA",
+      degree: "Masters",
+      focus: "Computer Engineering",
+      from: "2015",
+      to: "2016",
+    },
     {
       id: uuidv4(),
       school: "College University",
