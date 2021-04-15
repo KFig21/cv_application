@@ -1,4 +1,4 @@
-I cant figure out how to get my react app on github. Im starting to feel like I'm not meant to be a programmer if i can't solve little problems like this
+I cant figure out how to get my react app on github. 
 
 git@github.com: Permission denied (publickey).
 fatal: Could not read from remote repository.
