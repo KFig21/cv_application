@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/cv_application/static/css/main.51f06af5.chunk.css",
+    "main.js": "/cv_application/static/js/main.5ce9ec47.chunk.js",
+    "main.js.map": "/cv_application/static/js/main.5ce9ec47.chunk.js.map",
+    "runtime-main.js": "/cv_application/static/js/runtime-main.58a707e7.js",
+    "runtime-main.js.map": "/cv_application/static/js/runtime-main.58a707e7.js.map",
+    "static/js/2.f50bfc1f.chunk.js": "/cv_application/static/js/2.f50bfc1f.chunk.js",
+    "static/js/2.f50bfc1f.chunk.js.map": "/cv_application/static/js/2.f50bfc1f.chunk.js.map",
+    "static/js/3.c6052152.chunk.js": "/cv_application/static/js/3.c6052152.chunk.js",
+    "static/js/3.c6052152.chunk.js.map": "/cv_application/static/js/3.c6052152.chunk.js.map",
+    "index.html": "/cv_application/index.html",
+    "static/css/main.51f06af5.chunk.css.map": "/cv_application/static/css/main.51f06af5.chunk.css.map",
+    "static/js/2.f50bfc1f.chunk.js.LICENSE.txt": "/cv_application/static/js/2.f50bfc1f.chunk.js.LICENSE.txt",
+    "static/media/empty_avatar.cedf234c.png": "/cv_application/static/media/empty_avatar.cedf234c.png",
+    "static/media/example_avatar_2.bb922bdc.png": "/cv_application/static/media/example_avatar_2.bb922bdc.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.58a707e7.js",
+    "static/js/2.f50bfc1f.chunk.js",
+    "static/css/main.51f06af5.chunk.css",
+    "static/js/main.5ce9ec47.chunk.js"
+  ]
+}
