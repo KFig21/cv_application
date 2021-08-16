@@ -1,18 +1,19 @@
-:root{
+:root {
   --backgroundColor: rgb(88, 88, 88);
   --containerColor: rgb(241, 241, 241);
   --sidebar: rgb(222, 222, 226);
   --cvAccent: darkcyan;
 }
 
-body{
+body {
   background-color: var(--backgroundColor);
   font-family: Arial, Helvetica, sans-serif;
   margin: 0%;
 }
 
-#header{
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+#header {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   display: flex;
   align-items: center;
   font-size: 20px;
@@ -20,128 +21,133 @@ body{
   background-color: rgb(41, 41, 41);
   color: whitesmoke;
   transition: 0.2s; /* Add a transition effect (when scrolling - and font size is decreased) */
-  box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.40);
+  box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.4);
 }
-  #header-logo{
-      display: flex;
-      margin-right: 1rem;
-      font-size: 40px;
-  }
+#header-logo {
+  display: flex;
+  margin-right: 1rem;
+  font-size: 40px;
+}
 
-.main-content{
+.main-content {
   display: flex;
   align-items: flex-start;
   justify-content: center;
   gap: 4rem;
   padding: 3rem;
   margin-bottom: 4rem;
+  max-width: 95vw;
 }
 
-.personal-div{
+.personal-div {
   background-color: var(--containerColor);
   display: flex;
   flex-direction: column;
   max-width: 800px;
   margin: 0px auto 40px auto;
   border-radius: 5px;
-  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.40);
+  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.4);
 }
-  .experience-div{
-      display: flex;
-      flex-direction: column;
-  }
-  .personal-title{
-      display: flex;
-      margin: 20px auto;
-  }
-  .personal-form{
-      display: flex;
-      flex-direction: column;
-      margin: 0px 20px 10px 20px;
-  }
-      .personal-input{
-          margin: 5px 3px;
-          padding: 5px;
-          border-radius: 5px;
-          border: none;
-          font-size: 16px;
-          min-width: 45%;
-          overflow: hidden;
-      }
-          .photo-input{
-            margin: 5px 3px;
-            padding: 5px;
-            border-radius: 5px;
-            border: none;
-            font-size: 16px;
-            min-width: 45%;
-            overflow: hidden;
-            background-color: darkcyan;
-            color: whitesmoke;
-            cursor: pointer;
-          }
-          .input-row-div{
-              display: flex;
-              justify-content: space-between;
-              overflow: hidden;
-          }
-      .personal-button{
-          padding: 10px 20px;
-          border-radius: 5px;
-          border: none;
-          width: fit-content;
-          background-color: darkcyan;
-          color: whitesmoke;
-          font-size: 16px;
-          transition: ease-in-out .18s;
-          min-width: 220px;
-          outline: none;
-      }
-          .options-button{
-              padding: 10px 20px;
-              border-radius: 5px;
-              border: none;
-              width: fit-content;
-              background-color: darkcyan;
-              color: whitesmoke;
-              font-size: 16px;
-              transition: ease-in-out .18s;
-              min-width: 130px;
-              margin: 5px auto 0px auto;
-              outline: none;
-          }
-          
-          .buttons-div{
-              display: flex;
-              margin: auto;
-              padding: 10px 10px 15px 10px;
-              background-color: rgba(0, 0, 0, 0.295);
-              border-radius: 5px;
-              margin-top: -20px;
-              justify-content: space-around;
-          }
-          .delete-button{
-              margin: 5px auto 0px auto;
-          }
-              .delete-button:hover{
-                  background-color: rgb(219, 18, 18);
-              }
-          .add-button{
-              margin: 0px auto 10px auto;
-          }
-      .experience-textarea{
-          margin: 5px 3px;
-          padding: 5px;
-          border-radius: 5px;
-          border: none;
-          font-size: 16px;
-          font-family: Arial, Helvetica, sans-serif;
-      }
+.experience-div {
+  display: flex;
+  flex-direction: column;
+}
+.personal-title {
+  display: flex;
+  margin: 20px auto;
+}
+.personal-form {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 20px 10px 20px;
+}
+.personal-input {
+  margin: 5px 3px;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  min-width: 45%;
+  overflow: hidden;
+}
+.photo-input {
+  margin: 5px 3px;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  min-width: 45%;
+  overflow: hidden;
+  background-color: darkcyan;
+  color: whitesmoke;
+  cursor: pointer;
+}
+.input-row-div {
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+.personal-button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  width: fit-content;
+  background-color: darkcyan;
+  color: whitesmoke;
+  font-size: 16px;
+  transition: ease-in-out 0.18s;
+  min-width: 220px;
+  outline: none;
+  margin: auto;
+  cursor: pointer;
+}
+.options-button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  width: fit-content;
+  background-color: darkcyan;
+  color: whitesmoke;
+  font-size: 16px;
+  transition: ease-in-out 0.18s;
+  min-width: 130px;
+  outline: none;
+  cursor: pointer;
+}
 
+.buttons-div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: auto;
+  gap: 10px;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.295);
+  border-radius: 5px;
+  margin-top: -20px;
+  justify-content: space-around;
+}
+.delete-button {
+  margin: 5px auto 0px auto;
+}
+.red-button:hover,
+.delete-button:hover {
+  background-color: rgb(219, 18, 18);
+}
+.add-button {
+  margin: 0px auto 10px auto;
+}
+.experience-textarea {
+  margin: 5px 3px;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
 /* CV Preview */
 
-.CVpreview{
+.CVpreview {
   width: 215mm;
   height: 297mm;
   position: sticky;
@@ -152,85 +158,107 @@ body{
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-  .preview-content-container{
-    padding: 2rem;
-    background-color: whitesmoke;
-  }
+.preview-content-container {
+  padding: 2rem;
+  background-color: whitesmoke;
+}
 
-  .section-container{
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    padding: 10px;
-    margin-bottom: 2rem;
-  }
-    .cv-date-range{
-      width: 20%;
-      font-weight: bold;
-      margin-right: 2rem;
-    }
-    .subsection-container{
-      display: flex;
-      flex-direction: column;
-      /* padding: 10px; */
-    }
-  .cv-header{
-    grid-column: span 2;
-    padding: 1.5rem 2rem;
-    background-color: var(--cvAccent);
-    color: whitesmoke;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  }
-  .cv-section-title{
-    font-size: 20px;
-    color: var(--cvAccent);
-    font-weight: 700;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    border-bottom: solid 1.2px rgba(0, 0, 0, 0.11);
-    padding-bottom: 2px;
-    margin: 0px 0px;
-  }
-    .cv-section-subtitle{
-      font-size: 17px;
-      font-weight: 700;
-      margin: 18px auto 5px auto;
-      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    }
-      .cv-sidebar-content{
-        font-size: 16px;
-        margin: 0px auto;
-      }
-      .cv-main-content{
-        margin: 0px;
-        padding: 2px 0px;
-      }
-        .cv-exp-title{
-          font-weight: 600;
-          padding-top: 0px;
-        }
-        .cv-edu-title{
-          padding-top: 0px;
-        }
-        .cv-underline{
-          border-bottom: solid 1.2px rgba(0, 0, 0, 0.11);
-          margin-bottom: 6px;
-        }
-      .cv-content-block{
-        display: flex; 
-        margin-bottom: 5px;
-      }
-      .sidebar-photo{
-        max-width: 100%;
-        margin-bottom: 15px;
-        box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.40);
-      }
-        
+.section-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 10px;
+  margin-bottom: 2rem;
+}
+.cv-date-range {
+  width: 20%;
+  font-weight: bold;
+  margin-right: 2rem;
+}
+.subsection-container {
+  display: flex;
+  flex-direction: column;
+  /* padding: 10px; */
+}
+.cv-header {
+  grid-column: span 2;
+  padding: 1.5rem 2rem;
+  background-color: var(--cvAccent);
+  color: whitesmoke;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.cv-section-title {
+  font-size: 20px;
+  color: var(--cvAccent);
+  font-weight: 700;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  border-bottom: solid 1.2px rgba(0, 0, 0, 0.11);
+  padding-bottom: 2px;
+  margin: 0px 0px;
+}
+.cv-section-subtitle {
+  font-size: 17px;
+  font-weight: 700;
+  margin: 18px auto 5px auto;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.cv-sidebar-content {
+  font-size: 16px;
+  margin: 0px auto;
+}
+.cv-main-content {
+  margin: 0px;
+  padding: 2px 0px;
+}
+.cv-exp-title {
+  font-weight: 600;
+  padding-top: 0px;
+}
+.cv-edu-title {
+  padding-top: 0px;
+}
+.cv-underline {
+  border-bottom: solid 1.2px rgba(0, 0, 0, 0.11);
+  margin-bottom: 6px;
+}
+.cv-content-block {
+  display: flex;
+  margin-bottom: 5px;
+}
+.sidebar-photo {
+  max-width: 100%;
+  margin-bottom: 15px;
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.4);
+}
 
-        
 @media (max-width: 1300px) {
-  .main-content{ 
+  .main-content {
     flex-direction: column;
     align-items: center;
     gap: 2rem;
   }
-};
+}
+
+@media (max-width: 600px) {
+  #header {
+    height: 70px;
+  }
+  #header h1 {
+    font-size: 18px;
+  }
+  .personal-div {
+    max-width: 90vw;
+  }
+
+  .options-button {
+    min-width: 27vw;
+  }
+
+  .CVpreview {
+    transform: scale(0.4) translateY(-75%);
+    max-height: 400px;
+  }
+}
