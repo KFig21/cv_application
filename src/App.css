@@ -234,6 +234,14 @@ body {
   box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.4);
 }
 
+.desktop {
+  display: grid;
+}
+
+.mobile {
+  display: none;
+}
+
 @media (max-width: 1300px) {
   .main-content {
     flex-direction: column;
@@ -261,4 +269,9 @@ body {
     transform: scale(0.4) translateY(-75%);
     max-height: 400px;
   }
+}
+
+.scale {
+  transform: scale(3.76) translateY(36%) translateX(206px);
+  max-height: none;
 }
