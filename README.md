@@ -5,7 +5,7 @@
 
 
 <h3>Summary</h3>
-<p>A CV builder built with React that instantly updates upon data entry. The app allows users to add/remove experience and education entries and even view an example of how a completed CV should look. Users can also save the CV preview as a PDF file or even print it out for their own use.</p>
+<p> This was an introductory React project for <a href="https://www.theodinproject.com/paths/full-stack-javascript/courses/getting-hired/lessons/building-your-personal-website" target="_blank" rel="noopener noreferrer">The Odin Project's</a> JavaScript curriculum. A CV builder made with React that instantly updates upon data entry. The app allows users to add/remove experience and education entries and even view an example of how a completed CV should look. Users can also save the CV preview as a PDF file or even print it out for their own use.</p>
 
 <h3>Features:</h3>
 
